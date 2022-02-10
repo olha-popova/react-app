@@ -1,0 +1,53 @@
+.item {
+  background-color: #fff;
+  padding: 25px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #dde3ea;
+  line-height: 1.4rem;
+  color: #4a4a4a;
+  overflow: hidden;
+
+  header {
+    display: flex;
+    margin-bottom: 20px;
+
+    .img_wrapper {
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+    }
+
+    .post_info {
+      flex-grow: 1;
+      padding-left: 15px;
+
+      .name {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin: 0;
+      }
+
+      .date {
+        font-size: .8rem;
+        color: #acacac;
+        font-weight: 300;
+        margin: 0;
+      }
+    }
+  }
+
+  .content {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .likes {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    color: #E6468F;
+  }
+}

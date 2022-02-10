@@ -1,0 +1,26 @@
+.nav {
+    position: fixed;
+    width: 70px;
+    height: 100%;
+    top: 50px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+
+    .item {
+        width: 100%;
+        text-align: center;
+
+        a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            padding: 20px 0;
+            transition: all 200ms ease-in-out;
+
+            &:hover, &.active {
+                color: #0185d1;
+            }
+        }
+    }
+}

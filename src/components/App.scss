@@ -1,0 +1,12 @@
+.app_wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: #edf2f6;
+
+    .app_main_content {
+        grid-area: content;
+        padding: 90px 130px;
+    }
+}

@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  color: #515365;
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+#root {
+  height: 100%;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+input,
+label,
+select,
+button,
+textarea {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: #fff;
+  line-height: 1;
+  font-size: 1em;
+}
+
+input:focus {
+  outline: 0;
+}
+
+::-webkit-search-decoration {
+  display: none;
+}
+
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+  overflow: visible;
+  width: auto;
+}
+
+::-webkit-file-upload-button {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+textarea {
+  vertical-align: top;
+  overflow: auto;
+}
+
+select[multiple] {
+  vertical-align: top;
+}
