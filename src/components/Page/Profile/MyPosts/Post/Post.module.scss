@@ -1,0 +1,23 @@
+.item {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #dde3ea;
+    line-height: 1.4rem;
+    color: #4a4a4a;
+    overflow: hidden;
+
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .likes {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+        color: #E6468F;
+    }
+}

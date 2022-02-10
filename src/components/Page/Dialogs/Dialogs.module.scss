@@ -1,0 +1,12 @@
+.content {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #dde3ea;
+
+  .dialogs {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: "dialogsheader dialogsheader" "dialoglist chat";
+  }
+}
